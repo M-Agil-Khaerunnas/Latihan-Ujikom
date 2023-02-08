@@ -7,6 +7,7 @@
   
   h1 {
     text-align: center;
+    margin-top: 15px;
   }
 
   main {
@@ -14,16 +15,12 @@
     margin: 15px auto 0;
   }
   
-  #persegipanjangForm input[name="name"] {
-    grid-area: name;
+  #persegipanjangForm input[name="panjang"] {
+    grid-area: panjang;
   }
   
-  #persegipanjangForm input[name="age"] {
-    grid-area: age;
-  }
-  
-  #persegipanjangForm input[name="roll"] {
-    grid-area: roll;
+  #persegipanjangForm input[name="lebar"] {
+    grid-area: lebar;
   }
   
   #persegipanjangForm button {
@@ -35,8 +32,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-      "name name"
-      "age roll"
+      "panjang lebar"                              
       "button button";
   }
   
